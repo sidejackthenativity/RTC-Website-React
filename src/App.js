@@ -10,6 +10,7 @@ import {
 import { Contact } from './components/contact';
 import { Home } from './components/home';
 import { Wpe } from './components/wpe';
+import { Portal } from './components/portal';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/wpe" element={<Wpe/>}/>
+          <Route path="/portal" element={<Portal/>}/>
           <Route path="/" element={<Home/>}/>
         </Routes>
       </div>
