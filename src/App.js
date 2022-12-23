@@ -28,6 +28,7 @@ function App() {
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/wpe">Win Priv Esc</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+              <Nav.Link href="https://portal.ryanthompsonconsulting.com/login?client_id=5pral9jttontfv1cd8v8d5606p&response_type=token&scope=aws.cognito.signin.user.admin+email+openid+phone+profile&redirect_uri=https://ryanthompsonconsulting.com/portal">Login</Nav.Link>
               
             </Nav>
           </Navbar.Collapse>
